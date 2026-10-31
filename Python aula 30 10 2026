@@ -1,0 +1,43 @@
+class Aluno:
+    universidade = ("UniGrande")
+
+
+    def __init__(self, matricula: int, nome: str) -> None:
+        self.matricula = matricula
+        self.nome = nome
+        self.creditos_cursados = 0
+        self.mgp = 0.0
+
+    def apresentar(self):
+        return f"{self.matricula} - {self.nome}"
+
+    class professor:
+        def __init__(self, matricula: int, nome: str, email: str) -> None:
+            self.matricula = matricula
+            self.nome = nome
+            self.email = email
+            
+            Def resumo(self) -> str:
+            return f"{self.matricula} - {self.nome} < {self.email}"
+        
+    Class curso:
+        def __init__(self, codigo: int, nome:str, total_creditos: int) -> None:
+            self.codigo = codigo
+            self.nome = nome
+            
+            
+            
+    aluno_1 = Aluno(matricula:20260001, nome "David Leite")
+    aluno_2 = Aluno(matricula:20260002, nome "Carlinhos Maia")
+
+    print(aluno_1.apresentar())
+    print(aluno_2.apresentar())
+    
+    professor_1 = professor(matricula: 1, nome: 'Elisrenan', email: 'elisrenan@gmail.com')
+    professor_2 = professor(matricula: 2, nome: 'Mariano', email: 'marianofeioso@gmail.com')
+
+    print(professor_1.resumo())
+print(professor_2.resumo())
+
+curso_1 = curso(codigo:4340, nome: "ads", total_creditos:40
+curso_2 = curso(codigo:30, nome: "si", total_creditos:60
